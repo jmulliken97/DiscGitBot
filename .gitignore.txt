@@ -1,0 +1,12 @@
+# Ignore compiled output and temporary files
+*.o
+*.out
+*.pyc
+__pycache__/
+
+# Ignore specific directories
+/node_modules/
+/.venv/
+
+# Ignore ENV file
+ENV
