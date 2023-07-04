@@ -20,7 +20,7 @@ client.once('ready', async () => {
 
     setInterval(async () => {
         const owner = 'jmulliken97';
-        const repo = 'backendonly';
+        const repo = 'DiscGitBot';
 
         try {
             const { data } = await octokit.rest.issues.listForRepo({
